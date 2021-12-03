@@ -640,6 +640,7 @@ img {
   .hero__heading {
     margin: 0;
     padding: 0;
+    padding-bottom: 24px;
     max-width: 311px;
     font-weight: bold;
     font-size: 40px;
@@ -651,6 +652,7 @@ img {
   .hero__desc {
     margin: 0;
     padding: 0;
+    padding-bottom: 34px;
     max-width: 311px;
     font-family: Lexend Deca;
     font-style: normal;
