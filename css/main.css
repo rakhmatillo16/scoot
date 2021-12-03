@@ -448,6 +448,10 @@ img {
           align-items: center;
 }
 
+.header__humburger {
+  display: none;
+}
+
 .header__left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -463,6 +467,23 @@ img {
 }
 
 @media only screen and (max-width: 640px) {
+  .header__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__humburger {
+    position: absolute;
+    display: inline-block;
+    left: 20px;
+  }
   .main-button {
     display: none;
   }
