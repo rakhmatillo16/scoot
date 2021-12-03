@@ -1,6 +1,7 @@
 .site-nav{
     margin-left: 58px;
 
+
     &__list{
         display: flex;
         list-style: none;
@@ -21,5 +22,13 @@
         font-size: 15px;
         line-height: 25px;
         color: #939CAA;
+    }
+
+    &__item:hover {
+        opacity: 0.8;
+    }
+
+    &__item:active {
+        opacity: 0.6;
     }
 }
