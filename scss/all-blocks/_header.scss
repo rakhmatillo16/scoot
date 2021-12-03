@@ -1,0 +1,28 @@
+.header {
+    &__container {
+        display: flex;
+        padding: 22px 20px;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-link {
+        flex-shrink: 0;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .main-button {
+        display: none;
+    }
+
+    .site-nav {
+        display: none;
+    }
+}
