@@ -448,7 +448,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 375px) {
   .hero-button {
     display: inline-block;
     margin: 0 auto;
@@ -620,7 +620,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 375px) {
   .hero__container {
     display: -webkit-box;
     display: -ms-flexbox;
