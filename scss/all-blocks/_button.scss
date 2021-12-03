@@ -18,3 +18,22 @@
 .hero-button{
     margin-left: 260px;
 }
+
+@media only screen and (max-width:768px){
+    .hero-button {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 14px 39px;
+        max-width: 100%;
+        z-index: 5;
+    }
+}
+
+@media only screen and (max-width:640px){
+    .hero-button {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 14px 39px;
+        max-width: 100%;
+    }
+}
