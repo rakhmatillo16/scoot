@@ -13,22 +13,22 @@
         text-decoration: none;
     }
 
-    &__item-link + &__item-link {
+    &__item + &__item {
         margin-left: 32px;
     }
 
-    &__item{
+    &__item-link{
         font-weight: bold;
         font-size: 15px;
         line-height: 25px;
         color: #939CAA;
     }
 
-    &__item:hover {
+    &__item-link:hover {
         opacity: 0.8;
     }
 
-    &__item:active {
+    &__item-link:active {
         opacity: 0.6;
     }
 }

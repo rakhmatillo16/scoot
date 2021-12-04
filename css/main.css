@@ -724,22 +724,22 @@ img {
   text-decoration: none;
 }
 
-.site-nav__item-link + .site-nav__item-link {
+.site-nav__item + .site-nav__item {
   margin-left: 32px;
 }
 
-.site-nav__item {
+.site-nav__item-link {
   font-weight: bold;
   font-size: 15px;
   line-height: 25px;
   color: #939CAA;
 }
 
-.site-nav__item:hover {
+.site-nav__item-link:hover {
   opacity: 0.8;
 }
 
-.site-nav__item:active {
+.site-nav__item-link:active {
   opacity: 0.6;
 }
 
