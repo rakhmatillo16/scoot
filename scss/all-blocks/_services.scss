@@ -86,7 +86,6 @@
         padding: 0;
 
         &__container {
-
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -96,10 +95,15 @@
         }
 
         &__item {
+            margin: 0 auto ;
             display: flex;
-            // justify-content: center;
+            justify-content: center;
             flex-direction: column;
             align-items: center;
+        }
+
+        &__item + &__item {
+            margin: 0 auto;
         }
 
         &__right {
