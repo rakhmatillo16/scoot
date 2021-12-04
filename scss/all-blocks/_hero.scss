@@ -1,5 +1,7 @@
 .hero {
 
+    margin-bottom: 160px;
+
     &__container {
         padding: 153px 0px;
         position: relative;
@@ -49,6 +51,8 @@
 
 @media only screen and (max-width:768px){
     .hero {
+
+        margin-bottom: 122px;
         &__container {
             display: flex;
             flex-direction: column;
@@ -103,6 +107,7 @@
 
 @media only screen and (max-width:640px) {
     .hero {
+        margin-bottom: 120px;
         &__container {
             display: flex;
             flex-direction: column;

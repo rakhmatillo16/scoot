@@ -1,4 +1,9 @@
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 5;
     &__container {
         display: flex;
         padding: 22px 20px;

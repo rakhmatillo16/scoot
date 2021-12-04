@@ -387,6 +387,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  top: 100%;
   height: 100%;
   font-family: Space Mono, sans-serif;
   font-size: 16px;
@@ -457,6 +458,15 @@ img {
   }
 }
 
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 5;
+}
+
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -519,6 +529,10 @@ img {
   }
 }
 
+.hero {
+  margin-bottom: 160px;
+}
+
 .hero__container {
   padding: 153px 0px;
   position: relative;
@@ -566,6 +580,9 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
+  .hero {
+    margin-bottom: 122px;
+  }
   .hero__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -621,6 +638,9 @@ img {
 }
 
 @media only screen and (max-width: 640px) {
+  .hero {
+    margin-bottom: 120px;
+  }
   .hero__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -721,5 +741,165 @@ img {
 
 .site-nav__item:active {
   opacity: 0.6;
+}
+
+.services__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 165px;
+}
+
+.services__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.services__item {
+  max-width: 350px;
+}
+
+.services__item + .services__item {
+  margin-left: 30px;
+}
+
+.services__heading {
+  margin: 0;
+  padding: 0;
+}
+
+.services__desc {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .services__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    padding: 0 97px;
+  }
+  .services__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 573px;
+  }
+  .services__item + .services__item {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  .services__img {
+    display: inline-block;
+    margin-right: 79px;
+    width: 96px;
+    height: 96px;
+  }
+  .services__right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 398px;
+  }
+  .services__heading {
+    max-width: 398px;
+    margin: 0;
+    padding: 0;
+  }
+  .services__desc {
+    max-width: 398px;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .services {
+    margin: 0;
+    padding: 0;
+  }
+  .services__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+  .services__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .services__right {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 311;
+  }
+  .services__img {
+    margin: 0;
+    padding: 0;
+  }
+  .services__heading {
+    max-width: 311px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.892857px;
+  }
+  .services__desc {
+    max-width: 311px;
+    margin: 0;
+    padding: 0;
+    font-family: Lexend Deca;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #939CAA;
+  }
 }
 /*# sourceMappingURL=main.css.map */
