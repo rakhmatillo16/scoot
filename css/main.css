@@ -875,6 +875,7 @@ img {
   }
   .services__item + .services__item {
     margin: 0 auto;
+    padding: 48px;
   }
   .services__right {
     -webkit-box-align: center;
